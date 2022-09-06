@@ -1,8 +1,7 @@
 const vision = require('@google-cloud/vision');
 
 const client = new vision.ImageAnnotatorClient({
-    keyFilename:
-        '/Users/andymontalvo/Documents/study/electron/text-detector/src/apikey.json',
+    keyFilename: '< your api key file path >',
 });
 
 module.exports = client;
